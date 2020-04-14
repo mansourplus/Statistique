@@ -1,0 +1,87 @@
+<article class="category-card">
+    <section class="category-card__body" fxLayoutAlign="space-between center" (click)="toggleBody()" style="margin-top: -30px;">
+        <div class="info-cards" fxLayout="row nowrap">
+            <div style="margin-top: -5px;">
+                <img src={{data?.country_flag}}> <br/>
+                <span> {{data?.country}}</span>
+            </div>
+            <article class="info-cards__item">
+                <div class="info-cards__item-content" fxLayout="column">
+                    <span class="info-cards__value">
+                        {{data?.cases}}
+                    </span>
+                    <span class="info-cards__label">Total cases</span>
+                </div>
+            </article>
+            <article class="orange-cards__item">
+                <div class="orange-cards__item-content" fxLayout="column">
+                    <span class="orange-cards__value">
+                        {{data?.new_cases}}
+                    </span>
+                    <span class="orange-cards__label">New cases</span>
+                </div>
+            </article>
+            <article class="danger-cards__item">
+                <div class="danger-cards__item-content" fxLayout="column">
+                    <span class="danger-cards__value">
+                        {{data?.new_deaths}}
+                    </span>
+                    <span class="danger-cards__label">New deaths</span>
+                </div>
+            </article>
+
+        </div>
+        <div class="category__action" fxLayoutAlign="start center" fxLayoutGap="16px">
+            <button mat-icon-button role="button" aria-label="More Details">
+          <mat-icon class="category__action-toggle" svgIcon="arrow_down" [ngClass]="{'invert': expanded}"></mat-icon>
+        </button>
+
+        </div>
+    </section>
+    <section class="category-card__body" *ngIf="expanded">
+        <div class="info-cards" fxLayout="row nowrap">
+            <article class="info-cards__item">
+                <div class="info-cards__item-content" fxLayout="column">
+                    <span class="info-cards__value">
+              {{data?.active_cases}}
+            </span>
+                    <span class="info-cards__label">Active cases</span>
+                </div>
+            </article>
+            <article class="danger-cards__item">
+                <div class="danger-cards__item-content" fxLayout="column">
+                    <span class="danger-cards__value">
+              {{data?.deaths}}
+            </span>
+                    <span class="danger-cards__label">Total deaths</span>
+                </div>
+            </article>
+            <article class="info-cards__item">
+                <div class="info-cards__item-content" fxLayout="column">
+                    <span class="info-cards__value">
+              {{data?.recovered}}
+            </span>
+                    <span class="info-cards__label">Total recovered</span>
+                </div>
+            </article>
+            <article class="danger-cards__item">
+                <div class="danger-cards__item-content" fxLayout="column">
+                    <span class="danger-cards__value">
+              {{data?.serious_critical}}
+            </span>
+                    <span class="danger-cards__label">Serious critical</span>
+                </div>
+            </article>
+        </div>
+        <!--<div class="actions" fxLayout="row" fxLayoutGap="16px" fxLayoutAlign="center center">
+            <button mat-button>
+          <mat-icon class="category__action-icon" svgIcon="share"></mat-icon>
+          <span>&nbsp;Share Info</span>
+        </button>
+            <button mat-button [routerLink]="['/view/', data?.country]" routerLinkActive="router-link-active">
+          <mat-icon class="category__action-icon" svgIcon="share_new_tab"></mat-icon>
+          <span> &nbsp;More Details</span>
+        </button>
+        </div>-->
+    </section>
+</article>

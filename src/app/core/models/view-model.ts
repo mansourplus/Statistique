@@ -1,0 +1,48 @@
+import { count } from 'rxjs/operators';
+
+export class Covid19Model
+{
+    constructor(
+        city:string,
+    province:string,
+    country:string,
+    lastUpdate:Date,
+    cases:number,
+    active_cases:number,
+    confirmed:number,
+    deaths:number,
+    recovered:number,
+    serious_critical:number,
+    new_cases:number,
+    new_deaths:number,
+    country_flag:string)
+    {
+        this.city=city;
+        this.province=province,
+        this.country=country;
+        this.lastUpdate=lastUpdate;
+        this.cases=cases;
+        this.active_cases=active_cases;
+        this.confirmed=confirmed;
+        this.deaths=deaths;
+        this.recovered=recovered;
+        this.serious_critical=serious_critical;
+        this.new_cases=new_cases;
+        this.new_deaths=new_deaths;
+        this.country_flag=country_flag;
+    }
+    city:string;
+    province:string;
+    country:string;
+    country_flag:string;
+    lastUpdate:Date;
+    keyId:string;
+    cases:number;
+    active_cases:number;
+    confirmed:number;
+    deaths:number;
+    recovered:number;
+    serious_critical:number;
+    new_cases:number;
+    new_deaths:number;
+}

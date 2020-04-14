@@ -1,0 +1,30 @@
+<app-header></app-header>
+
+<main>
+    <section class="state-info">
+        <div class="section__heading" fxLayout="row nowrap" fxLayoutAlign="space-between center">
+            <h3>State</h3>
+            <span></span>
+        </div>
+        <div class="state-info__search" fxLayoutAlign="start center">
+            <div class="search__input" fxFlex="100">
+                <form>
+                    <mat-icon svgIcon="search" class="search__icon"></mat-icon>
+                    <input type="text" role="searchbox" aria-label="Search" placeholder="Search state" #search id="search" [formControl]="searchTerm">
+                </form>
+
+                <!--<button mat-flat-button color="primary" class="search__button" fxFlex="20" *ngIf="search.value.length > 0" (onclick="listenToSearchInputAndFilterData" )>Search</button>-->
+
+            </div>
+
+        </div>
+        <ng-container *ngIf="districtData$ | async as districtData ">
+            <div class="state-info__items" *ngFor="let state of districtData | orderBy :'cases'">
+                <app-category-card [data]="state"></app-category-card>
+            </div>
+
+        </ng-container>
+    </section>
+</main>
+<router-outlet></router-outlet>
+<!--<app-nav-bar></app-nav-bar>-->
