@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1586899021664,
+  "timestamp": 1586899334319,
   "index": "https://mansourplus.github.io/Statistique/covid-19/index.html",
   "assetGroups": [
     {
@@ -12,8 +12,8 @@
         "https://mansourplus.github.io/Statistique/covid-19/5-es5.4e45fab761685ae9b86d.js",
         "https://mansourplus.github.io/Statistique/covid-19/favicon.ico",
         "https://mansourplus.github.io/Statistique/covid-19/index.html",
-        "https://mansourplus.github.io/Statistique/covid-19/main-es2015.6fc48e5afe05be6ff1a8.js",
-        "https://mansourplus.github.io/Statistique/covid-19/main-es5.6fc48e5afe05be6ff1a8.js",
+        "https://mansourplus.github.io/Statistique/covid-19/main-es2015.1177ea15a489e319b7e6.js",
+        "https://mansourplus.github.io/Statistique/covid-19/main-es5.1177ea15a489e319b7e6.js",
         "https://mansourplus.github.io/Statistique/covid-19/manifest.webmanifest",
         "https://mansourplus.github.io/Statistique/covid-19/polyfills-es2015.3d11763ec6e90a94bbba.js",
         "https://mansourplus.github.io/Statistique/covid-19/polyfills-es5.e92cbc94327e23c6c621.js",
@@ -227,9 +227,9 @@
     "https://mansourplus.github.io/Statistique/covid-19/assets/style.scss": "7c70dde33ccbb30f6ab5c200b3962f79255bd744",
     "https://mansourplus.github.io/Statistique/covid-19/assets/theme.scss": "7d32ce88c43201c561a7bd391b7b03b38e959148",
     "https://mansourplus.github.io/Statistique/covid-19/favicon.ico": "00dc52443eef20a3722bf66b02f31d9a1a6ab685",
-    "https://mansourplus.github.io/Statistique/covid-19/index.html": "0349fee6bdecdfc816d72dcab1889af01eae97c1",
-    "https://mansourplus.github.io/Statistique/covid-19/main-es2015.6fc48e5afe05be6ff1a8.js": "e3837545dca285268177c19d74873482f034d697",
-    "https://mansourplus.github.io/Statistique/covid-19/main-es5.6fc48e5afe05be6ff1a8.js": "a23879a1c935077dcc21780bf0719ca580705bdf",
+    "https://mansourplus.github.io/Statistique/covid-19/index.html": "8994892ad8410e1273d734af8d2f106ea3f126e5",
+    "https://mansourplus.github.io/Statistique/covid-19/main-es2015.1177ea15a489e319b7e6.js": "9bd622c96e4d7e01d8cad1711f6639dd869eea06",
+    "https://mansourplus.github.io/Statistique/covid-19/main-es5.1177ea15a489e319b7e6.js": "14ff58cfbacff9c624ea903631eb34454d509fab",
     "https://mansourplus.github.io/Statistique/covid-19/manifest.webmanifest": "f182d1b6425bd0a1e5b52a64c9e20851f03e6705",
     "https://mansourplus.github.io/Statistique/covid-19/polyfills-es2015.3d11763ec6e90a94bbba.js": "90fb474e1a7d87bd57bc8a95fb3fd361b919d815",
     "https://mansourplus.github.io/Statistique/covid-19/polyfills-es5.e92cbc94327e23c6c621.js": "2169a8f7eac1f1899a657e859de525fa80e57a22",
