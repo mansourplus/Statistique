@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{bC8W:function(n,t,o){"use strict";o.r(t),o.d(t,"StatistiquesModule",(function(){return r}));var e=o("fXoL");let r=(()=>{class n{}return n.\u0275mod=e.Kb({type:n}),n.\u0275inj=e.Jb({factory:function(t){return new(t||n)},imports:[[]]}),n})()}}]);
